@@ -1,0 +1,38 @@
+.box-100 div{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 2px;
+    padding: 15px;
+    font-size: 15pt;
+    text-align: center;
+    }
+
+.maroon-box div {
+    color: #FFFFFF;
+    background: #96281B;
+    }
+
+#sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    border: 3px solid #1a1c20;
+    background-color: #cf7500;
+    padding: 5px;
+    top: 0;
+    }
+
+#batasan {
+    position: relative;
+    /* padding-left: 200px; */
+    border: 3px solid #1a1c20;
+    padding: 200px;
+    
+}
+
+#batasan #kiri-atas {
+    position: absolute;
+    
+    left: 50px;
+    top: 0;
+  }
