@@ -1,11 +1,26 @@
-.box-100 div{
-    width: 100px;
-    height: 100px;
+.margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 229px;
+}
+
+#kecilin img {
+    width: 30%;
+    margin-bottom: -125px;
+}
+
+.box-150 img{
+    width: 150px;
+    height: 150px;
     float: left;
-    margin: 2px;
-    padding: 15px;
-    font-size: 15pt;
+    margin: 15px;
+    /* padding: 15px; */
+    /* font-size: 15pt; */
     text-align: center;
+    cursor: pointer;
+    /* float: left; */
+    
     }
 
 .maroon-box div {
@@ -16,23 +31,49 @@
 #sticky {
     position: sticky;
     position: -webkit-sticky;
-    border: 3px solid #1a1c20;
-    background-color: #cf7500;
+    border-bottom: 1px solid;
+    /* border: 3px solid #1a1c20; */
+    /* background-color: #cf7500; */
     padding: 5px;
     top: 0;
     }
 
-#batasan {
-    position: relative;
-    /* padding-left: 200px; */
-    border: 3px solid #1a1c20;
-    padding: 200px;
-    
-}
 
-#batasan #kiri-atas {
-    position: absolute;
+
+.float img{
+    /* position: absolute; */
+    float: center;
     
-    left: 50px;
-    top: 0;
+  }
+  /* #batasan #atas {
+    position: absolute;
+    float: left;
+  } */
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  #pointer a{
+    cursor: pointer;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #deskripsi {
+     text-align: justify; 
+     margin-top: 340px;
+     font-size: 10pt;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #center {
+      text-align: center;
+      font-size: 8pt;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(139, 139, 139);
   }
