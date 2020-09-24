@@ -8,6 +8,7 @@
 #kecilin img {
     width: 30%;
     margin-bottom: -125px;
+    margin-top: -125px;
 }
 
 .box-150 img{
@@ -20,6 +21,7 @@
     text-align: center;
     cursor: pointer;
     /* float: left; */
+    
     
     }
 
